@@ -2,7 +2,7 @@ package couchbase
 
 type ViewDefinition struct {
 	Map    string `json:"map"`
-	Reduce string `json:"reduce"`
+	Reduce string `json:"reduce,omitempty"`
 }
 
 type DDocJSON struct {

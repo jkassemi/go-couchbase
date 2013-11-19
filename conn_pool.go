@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dustin/gomemcached/client"
+	"github.com/jkassemi/gomemcached/client"
 )
 
 type connectionPool struct {

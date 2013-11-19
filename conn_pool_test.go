@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/dustin/gomemcached"
-	"github.com/dustin/gomemcached/client"
+	"github.com/jkassemi/gomemcached"
+	"github.com/jkassemi/gomemcached/client"
 )
 
 type testT struct{}

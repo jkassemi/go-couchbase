@@ -27,8 +27,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dustin/gomemcached"
-	"github.com/dustin/gomemcached/client"
+	"github.com/jkassemi/gomemcached"
+	"github.com/jkassemi/gomemcached/client"
 )
 
 // Execute a function on a memcached connection to the node owning key "k"
